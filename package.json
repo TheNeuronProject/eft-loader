@@ -1,6 +1,6 @@
 {
   "name": "eft-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "EFML loader for Webpack",
   "main": "index.js",
   "scripts": {

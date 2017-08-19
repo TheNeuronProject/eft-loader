@@ -22,9 +22,9 @@ module.exports = {
 	module: {
 		rules: [
 			{
-        test: /\.eft?$/,
-        loader: 'eft-loader'
-      }
+				test: /\.eft?$/,
+				loader: 'eft-loader'
+			}
 		]
 	}
 }
