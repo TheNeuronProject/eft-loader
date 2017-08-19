@@ -1,4 +1,4 @@
-# rollup-plugin-eft
+# eft-loader
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/TheNeuronProject/eft-loader/master/LICENSE) [![npm](https://img.shields.io/npm/dt/eft-loader.svg?style=flat-square)](https://www.npmjs.com/package/eft-loader)
 
 [ef.js](https://github.com/TheNeuronProject/ef.js) template loader for Webpack
