@@ -19,14 +19,14 @@ yarn add eft-loader --dev
 ## Usage
 ``` javascript
 module.exports = {
-	module: {
-		rules: [
-			{
-				test: /\.eft?$/,
-				loader: 'eft-loader'
-			}
-		]
-	}
+  module: {
+    rules: [
+      {
+        test: /\.eft?$/,
+        loader: 'eft-loader'
+      }
+    ]
+  }
 }
 ```
 
