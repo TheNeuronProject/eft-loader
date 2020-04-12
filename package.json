@@ -1,6 +1,6 @@
 {
   "name": "eft-loader",
-  "version": "0.3.0",
+  "version": "0.10.6",
   "description": "EFML loader for Webpack",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/TheNeuronProject/eft-loader#readme",
   "peerDependencies": {
-    "ef-core": "^0.6.0-beta.1",
-    "eft-parser": "^0.6.0"
+    "ef-core": "^0.10.6",
+    "eft-parser": "^0.10.6"
   }
 }
