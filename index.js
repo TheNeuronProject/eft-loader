@@ -1,9 +1,10 @@
-import path from 'path'
-import parse from 'eft-parser'
-import camelCase from 'camelcase'
+const path = require('path')
+const parse = require('eft-parser')
 
-export default function(template) {
+module.exports = async function(template) {
 	if (this.cacheable) this.cacheable()
+
+	const camelCase = (await import('camelcase')).default
 
 	const filePath = this.resourcePath
 	const fileName = path.parse(filePath).name
